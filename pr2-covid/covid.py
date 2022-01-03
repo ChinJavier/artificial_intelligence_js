@@ -54,7 +54,7 @@ x_new_transform = polynomial_features.fit_transform(x_new)
 y_new = model.predict(x_new_transform)
 
 # plot the prediction
-plt.plot(x_new, y_new, color='yellow', linewidth=3)
+plt.plot(x_new, y_new, color='blue', linewidth=3)
 plt.grid()
 plt.xlim(x_new_min,x_new_max)
 plt.ylim(0,8000)
